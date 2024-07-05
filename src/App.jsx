@@ -62,7 +62,7 @@ const HeroSection = () => {
     // Handle form submission logic here (e.g., send data to server)
     try {
     console.log("Submitted data:", data);
-      const response = await axios.post('http://localhost:3001/api/referrals', data);
+      const response = await axios.post('https://accredian-backend-task-5hn9.onrender.com/api/referrals', data);
       console.log('API response:', response.data);
       // console.log(response.data.status)
       // console.log(response.status)
